@@ -2,15 +2,16 @@
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
-from datetime import datetime
-import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia, goslate
-import timeit
 from bs4 import BeautifulSoup
+from datetime import datetime
+#import time,random,sys,json,codecs,threading,glob,re,os,subprocess
+import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia, google,tempfile,glob,shutil,unicodedata,urllib3
+import html5lib
 from urllib import urlopen
-from io import StringIO
-from threading import Thread
+import requests,tempfile
+#from urllib3.contrib import pyopenssl
+#from random import randint
 from gtts import gTTS
-from googletrans import Translator
 
 import six
 
