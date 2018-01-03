@@ -41,12 +41,12 @@ class LINE:
       raise Exception("invalid arguments")
 
     self.authToken = self.Talk.authToken
-    self._headers = {'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 'X-Line-Access': self.authToken, 'User-Agent': 'Line/1.7.14'}
+    self._headers = {'X-Line-Application': 'CHROMEOS\t1.4.5\tChrome_OS\t1', 'X-Line-Access': self.authToken, 'User-Agent': 'Line/7.18.0'}
     self.cert = self.Talk.cert
     self._headers = {
-              'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 
+              'X-Line-Application': 'CHROMEOS\t1.4.5\tChrome_HP\t1', 
               'X-Line-Access': self.authToken, 
-              'User-Agent': 'Line/1.7.14'
+              'User-Agent': 'Line/7.18.0'
    }
     self.Poll = Poll(self.authToken)
     #self.channel = channel.Channel(self.authToken)
@@ -521,7 +521,7 @@ class LINE:
       prof = self.getProfile()
 
       print("=============[SHINIGAMI FOR BOT]==============")
-      print("====[ Editing for Muhammad Fahmi Ridhani ]====")
+      print("====[ Editing for 1DaffaN3Kalani ]====")
       print("==============================================")
       print("MID : " + prof.mid)
       print("NAME : " + prof.displayName)
